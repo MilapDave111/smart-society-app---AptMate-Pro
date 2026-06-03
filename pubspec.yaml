@@ -1,0 +1,57 @@
+name: aptmatepro
+description: "A new Flutter project."
+publish_to:
+
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.1
+  flutter_riverpod: ^2.6.1
+  cloud_firestore: ^5.6.2
+  firebase_messaging: ^15.2.10  # Use the stable version
+  flutter_local_notifications: ^21.0.0
+  http: ^1.6.0
+  googleapis_auth: ^1.4.1
+  intl: ^0.19.0
+  image_picker: ^1.2.1
+  google_fonts: ^6.1.0
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.12.0+1
+  google_mlkit_face_detection: ^0.13.2
+  permission_handler: ^12.0.1
+  tflite_flutter: ^0.12.1
+  image: ^4.8.0
+  responsive_framework: ^1.5.1
+  url_launcher: ^6.3.2
+  google_sign_in: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # ADD THIS LINE TO FIX THE TERMINAL ERROR:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Homelogo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/Homelogo.png"
+
+flutter:
+  assets:
+    - assets/data/service-account.json
+    - assets/models/mobilefacenet.tflite
+    - assets/images/logo.png
+    - assets/images/mu-logo.png
+
+  uses-material-design: true
+

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1025429456539",
+    "project_id": "aptmatepro",
+    "storage_bucket": "aptmatepro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025429456539:android:d1a627059d5c480794683e",
+        "android_client_info": {
+          "package_name": "com.marwadiuniversity.smartsociety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025429456539-vfmf1oribqcdaeg9gq35e200f6fjp4ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marwadiuniversity.smartsociety",
+            "certificate_hash": "bd82e25d698ef27a59a0fb3bb3891f04a2562920"
+          }
+        },
+        {
+          "client_id": "1025429456539-0fklvn4gd25gl5g5mvn74o4mm5j12dm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf8Bp3dlhThyFhZ9f7SVkVincaWXlfFE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025429456539-0fklvn4gd25gl5g5mvn74o4mm5j12dm5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1025429456539-gjruhbsrlalpf5kebfsh9uj6b0imd2r7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.marwadiuniversity.smartsociety"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
